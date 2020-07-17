@@ -22,4 +22,4 @@
   - Псевдоклассы
   - Относительные размеры
 
-#### Проект доступен на GitHub Pages:
+&rArr; __[Проект доступен на GitHub Pages](https://sytnikspb.github.io/russian-travel/index.html "Let's travel together")__ &lArr;
