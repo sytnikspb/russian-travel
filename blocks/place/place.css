@@ -1,0 +1,38 @@
+.place {
+  max-width: 984px;
+  height: auto;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+.place:last-child {
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 964px) {
+  .place {
+    max-width: 720px;
+    margin-bottom: 72px;
+  }
+  .place:last-child {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 751px) {
+  .place {
+    max-width: 320px;
+    margin-bottom: 48px;
+  }
+  .place:last-child {
+    margin-bottom: 64px;
+  }
+}
