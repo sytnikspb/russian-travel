@@ -3,4 +3,16 @@
   height: 100%;
   text-decoration-line: none;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover__link .cover__background {
+  transition: opacity .2s linear;
+}
+
+.cover__link:hover .cover__background {
+  opacity: 0.3;
 }

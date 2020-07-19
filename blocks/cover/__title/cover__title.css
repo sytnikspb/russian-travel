@@ -4,35 +4,24 @@
   font-size: 72px;
   line-height: 76px;
   text-align: center;
-  margin: 245px auto 32px;
+  margin: 0;
+  margin-bottom: 32px;
   z-index: 1;
-}
-
-@media screen and (max-width: 1024px) {
-  .cover__title {
-    margin: 195px auto 32px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__title {
-    margin-top: 115px;
-  }
 }
 
 @media screen and (max-width: 529px) {
   .cover__title {
+    max-width: 350px;
     font-size: 46px;
     line-height: 50px;
-    max-width: 350px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__title {
     max-width: 255px;
-    margin: 33px auto 16px;
     font-size: 32px;
     line-height: 35px;
+    margin-bottom: 16px;
   }
 }

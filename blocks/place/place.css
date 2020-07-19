@@ -1,8 +1,5 @@
 .place {
-  max-width: 984px;
-  height: auto;
   display: flex;
-  margin: auto;
   flex-direction: column;
   margin-bottom: 80px;
 }
@@ -11,15 +8,8 @@
   margin-bottom: 92px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .place {
-    max-width: 928px;
-  }
-}
-
-@media screen and (max-width: 964px) {
-  .place {
-    max-width: 720px;
     margin-bottom: 72px;
   }
   .place:last-child {
@@ -27,9 +17,8 @@
   }
 }
 
-@media screen and (max-width: 751px) {
+@media screen and (max-width: 320px) {
   .place {
-    max-width: 320px;
     margin-bottom: 48px;
   }
   .place:last-child {

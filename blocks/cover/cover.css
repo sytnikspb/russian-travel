@@ -2,9 +2,6 @@
   width: 1184px;
   height: 740px;
   position: relative;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
   margin: auto;
   margin-bottom: 92px;
   z-index: 0;
@@ -39,6 +36,5 @@
 @media screen and (max-width: 320px) {
   .cover {
     height: 200px;
-    margin-bottom: 64px;
   }
 }

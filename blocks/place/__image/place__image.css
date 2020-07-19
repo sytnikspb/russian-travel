@@ -7,24 +7,29 @@
 
 @media screen and (max-width: 1024px) {
   .place__image {
-    width: 440px;
-    height: 440px;
+    width: 47.42%;
+    height: 47.42%;
     margin-right: 32px;
   }
 }
 
-@media screen and (max-width: 964px) {
+@media screen and (max-width: 768px) {
   .place__image {
-    width: 340px;
-    height: 340px;
     margin-right: 28px;
   }
 }
 
-@media screen and (max-width: 751px) {
+@media screen and (max-width: 561px) {
   .place__image {
     width: 100%;
-    height: 320px;
+    height: 100%;
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__image {
     margin-right: 0;
     margin-bottom: 32px;
   }
